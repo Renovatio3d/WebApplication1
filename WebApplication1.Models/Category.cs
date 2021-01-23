@@ -5,10 +5,10 @@ using System.Text;
 
 namespace WebApplication1.Models
 {
-    class Category
+   public class Category
     {
         [Key]
-        public int ID { get; set; }
+        public int Id { get; set; }
 
        [Required]
        [Display(Name="Display Name")]
@@ -16,6 +16,6 @@ namespace WebApplication1.Models
 
         [Required]
         [Display(Name = "Display Order")]
-        public int displayOrder { get; set; }
+        public int DisplayOrder { get; set; }
     }
 }
