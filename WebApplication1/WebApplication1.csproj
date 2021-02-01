@@ -17,11 +17,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
+    <ProjectReference Include="..\WebApplication1.DataAccess\WebApplication1.DataAccess.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WebApplication1.DataAccess\WebApplication1.DataAccess.csproj" />
+    <Folder Include="wwwroot\images\services\" />
   </ItemGroup>
 
 </Project>
